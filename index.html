@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jerico Andrei | Portfolio</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">JERI.CO</a>
+            </div>
+            
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="nav-toggler">
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-btn">
+                        <span id="theme-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Jerico Andrei Abalos</h1>
+                <p>I'm a web developer</p>
+                <a href="img/hero-1.jpg" class="btn-download" download>Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/hero-1.jpg" alt="Jerico Andrei Abalos">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img/hero-3.jpg" alt="About Jerico">
+            </div>
+
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <h3>I'm a college student of CvSU - Tanza Campus.</h3>
+                <p class="description">
+                    Currently taking the Bachelors of Science in Information Technology and I'm a incoming third year. 
+                    I'm also a working student and when I don't have classes, I usually do a job like delivering packages 
+                    and I'm also accepting commissions like doing activities for some students.
+                </p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Completed Commissions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1k+</span>
+                        <span class="stat-label">Completed Deliveries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1k+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+
+                <div class="other-info">
+                    <h4>Other Info:</h4>
+                    <details>
+                        <summary>Skills</summary>
+                        <p>Web Development (PHP, JavaScript, HTML, CSS), UI/UX Design, Problem Solving.</p>
+                    </details>
+                    <details>
+                        <summary>Interests</summary>
+                        <p>Photography, Exploring new technologies, Architectural Design, and Coding.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="projects-title">Latest Projects</h2>
+
+            <div class="project-card">
+                <div class="project-preview">
+                    <img src="img/project1.png" alt="Project Preview">
+                </div>
+
+                <div class="project-info">
+                    <span class="category-badge">Web Design</span>
+                    <h3>Website Design and Development for Startup</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere 
+                        earum culpa nam dicta natus, enim nihil. Magnam, sed est? Corrupti 
+                        excepturi adipisci error nihil.
+                    </p>
+                    <a href="https://je-an-commits.github.io/Calculator/" class="btn-live">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-preview">
+                    <img src="img/c.png" alt="Project Preview">
+                </div>
+
+                <div class="project-info">
+                    <span class="category-badge">Web Design</span>
+                    <h3>Website Design and Development for Startup</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere 
+                        earum culpa nam dicta natus, enim nihil. Magnam, sed est? Corrupti 
+                        excepturi adipisci error nihil.
+                    </p>
+                    <a href="https://je-an-commits.github.io/Portfolio/" class="btn-live">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="section-title-center">Resume</h2>
+            
+            <div class="resume-wrapper">
+                <div class="resume-column">
+                    <h3 class="column-title">Education</h3>
+                    
+                    <div class="resume-item">
+                        <span class="date">2023 - Present</span>
+                        <h4>BS in Information Technology</h4>
+                        <p class="institution">Cavite State University - Tanza Campus</p>
+                        <p class="description">Incoming 4th-year student focusing on web development, database management, and system analysis.</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <span class="date">2016 - 2018</span>
+                        <h4>Senior High School</h4>
+                        <p class="institution">TVL - Information & Communication Technology</p>
+                        <p class="description">Graduated with a focus on computer programming.</p>
+                    </div>
+                </div>
+
+                <div class="resume-column">
+                    <h3 class="column-title">Work Experience</h3>
+                    
+                    <div class="resume-item">
+                        <span class="date">2024 - Present</span>
+                        <h4>Freelance Developer</h4>
+                        <p class="institution">Student Commissions</p>
+                        <p class="description">Completed 50+ academic and technical commissions, assisting students with programming logic and UI design.</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <span class="date">2023 - Present</span>
+                        <h4>Delivery Personnel</h4>
+                        <p class="institution">Independent / Part-time</p>
+                        <p class="description">Successfully managed 1k+ deliveries. Balanced professional responsibilities with a full-time academic schedule.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title-center">Get In Touch</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's talk about everything!</h3>
+                    <p>Don't like forms? Send me an email or find me on social media.</p>
+                    
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div class="info-text">
+                            <strong>Location</strong>
+                            <span>Tanza, Cavite, Philippines</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <div class="info-text">
+                            <strong>Email</strong>
+                            <span>jerico.abalos@email.com</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon">Fb</a>
+                        <a href="https://github.com/je-an-commits" class="social-icon">Gh</a>
+                        <a href="#" class="social-icon">Li</a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-center">
+                <p>&copy; 2026 Jerico Andrei Abalos. All rights reserved.</p>
+                <span>Based in Tanza, Cavite, Philippines</span>
+            </div>
+        
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
